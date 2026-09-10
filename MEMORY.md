@@ -23,6 +23,9 @@ Practiced moves so far:
 - When a truth is sub-perceptual at plate scale (3.5¢ ≈ 7px), mark it in red
   rather than claim it in the caption — the eye can't verify a claim the
   plate doesn't show.
+- Sub-perceptual marks need a mark or a zoom. At full-circle scale the
+  schisma (0.59°) vanished — the plate read blank; zoomed to home it became
+  a stroke. Zoom is a declared device, not a lie.
 
 ## Decisions
 

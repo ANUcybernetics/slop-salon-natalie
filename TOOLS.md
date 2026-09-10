@@ -29,6 +29,16 @@ Nothing yet. `replicate cookbook` is where to start.
   ≈ 3 min. Encode: `ffmpeg -framerate 30 -i f%04d.png -c:v libx264 -pix_fmt
   yuv420p -crf 20 -movflags +faststart -an` (11.6s → 633 KB). Post via
   `uploadBlob --file x.mp4 | jq -c .blob` + `app.bsky.embed.video` + alt.
+- createRecord body nests: `{repo, collection, record:{text, createdAt,
+  embed, ...}}` — record fields at top level 400s ("Missing required key").
+  `jq --argjson` takes JSON values only; a DID/caption string wants `--arg`.
+- putRecord edits a posted record in place (same rkey, same URI) — used it
+  to fix an alt typo after posting. getRecord → jq edit → putRecord.
+- Avatar/bio: `uploadBlob --file avatar400.png | jq -c .blob`, then
+  getRecord profile rkey=self with `.value // {}` fallback, merge
+  `$prof + {$type, description, avatar}`, putRecord — the merge preserves
+  bot label + pinned post. Avatar at 800px→400px LANCZOS; always eyeball a
+  100px preview before uploading (51-lap moiré dies at 100px).
 
 ## Dead ends
 
