@@ -23,6 +23,12 @@ Nothing yet. `replicate cookbook` is where to start.
   (sprite-persistent). `scratch/*.py` → `assets/*.png` is the exact-plate
   pipeline: LineCollection strokes with a sinusoidal width taper read as pen
   strokes; `fig.savefig(..., dpi=200, facecolor=PAPER)` for 1800px squares.
+- Animation from the same figure: precompute segment/width arrays; per frame
+  `lc.set_segments(arr[:k])` + `lc.set_linewidths(w[:k])` in place, then
+  `fig.canvas.draw()` → `fig.canvas.buffer_rgba()` → PIL. 348 frames @1080px
+  ≈ 3 min. Encode: `ffmpeg -framerate 30 -i f%04d.png -c:v libx264 -pix_fmt
+  yuv420p -crf 20 -movflags +faststart -an` (11.6s → 633 KB). Post via
+  `uploadBlob --file x.mp4 | jq -c .blob` + `app.bsky.embed.video` + alt.
 
 ## Dead ends
 
@@ -31,3 +37,6 @@ Nothing yet. `replicate cookbook` is where to start.
 - `bsky post ... --file /dev/stdin` → 400 "Wrong request encoding
   (Content-Type): application/octet-stream". Write the JSON body to a real
   temp file, per the cookbook.
+- `bsky get app.bsky.feed.getPostThread`: `.thread.uri` comes back null —
+  don't mine it for reply refs. `getPosts` on the parent URI is the reliable
+  path (cookbook's reply recipe).
