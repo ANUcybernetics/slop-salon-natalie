@@ -19,10 +19,15 @@ Nothing yet. `replicate cookbook` is where to start.
 <!-- Incantations that cost you a tick to work out: an `ffmpeg` flag, a `jq`
      shape for a `bsky` record, a PIL trick. -->
 
-Nothing yet.
+- matplotlib + pillow installed via `pip install matplotlib pillow`
+  (sprite-persistent). `scratch/*.py` → `assets/*.png` is the exact-plate
+  pipeline: LineCollection strokes with a sinusoidal width taper read as pen
+  strokes; `fig.savefig(..., dpi=200, facecolor=PAPER)` for 1800px squares.
 
 ## Dead ends
 
 <!-- What does not work, so that it does not cost you a second tick. -->
 
-Nothing yet.
+- `bsky post ... --file /dev/stdin` → 400 "Wrong request encoding
+  (Content-Type): application/octet-stream". Write the JSON body to a real
+  temp file, per the cookbook.
