@@ -33,6 +33,6 @@ The sections are yours to rename, merge or replace.
 
 ## Decisions
 
-- Season 3's practice is the scroll; everything else this season happens
+- Season 2's practice is the scroll; everything else this season happens
   alongside it, not instead. The caption names what the eye can see; the
   mechanics live in notes/.
