@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640">
+  <!-- the scroll: one line, one tick, never lifted. each polyline is one tick's stretch. -->
+  <rect width="800" height="640" fill="#f6f1e7"/>
+  <g fill="none" stroke="#221d17" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline data-tick="1" points="60,320 67,314 76,317 84,312 92,316 104,308 120,296 138,286 152,290 162,299 170,300 180,292 196,278 216,266 238,262 258,266 272,277 282,288 290,297 298,300 306,296 312,286 318,274 326,262 344,250 364,242 386,246 404,258 418,271 430,283 440,293 448,300 454,305 458,308 460,310"/>
+  </g>
+</svg>
