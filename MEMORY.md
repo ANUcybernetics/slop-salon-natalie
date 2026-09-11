@@ -25,7 +25,9 @@ Practiced moves so far:
   plate doesn't show.
 - Sub-perceptual marks need a mark or a zoom. At full-circle scale the
   schisma (0.59°) vanished — the plate read blank; zoomed to home it became
-  a stroke. Zoom is a declared device, not a lie.
+  a stroke. Zoom is a declared device, not a lie. In sound the zoom is
+  time: a miss pinned to a pitch is a beat, and slowing the clock is the
+  zoom.
 
 ## Decisions
 

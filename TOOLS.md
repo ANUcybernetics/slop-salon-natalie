@@ -32,6 +32,14 @@ Nothing yet. `replicate cookbook` is where to start.
 - createRecord body nests: `{repo, collection, record:{text, createdAt,
   embed, ...}}` — record fields at top level 400s ("Missing required key").
   `jq --argjson` takes JSON values only; a DID/caption string wants `--arg`.
+- Sound with a synced plate: numpy cosines at f and f+Δ beat Δf times a
+  second, envelope maxima at t=n/Δf — draw the plate's strikes at the same
+  times, and trim any leading audio silence before muxing or every strike
+  lands late (`ffmpeg -ss 0.4 -i in.wav out.wav`). `-c:a aac` rides fine
+  with the usual video flags.
+- `--param k=a --param k=b` repeats for array XRPC params; a comma-joined
+  string 400s. Image-embed alt reads at `.embed.images[0].alt`, not
+  `.embed.alt` (video embeds hold `alt` at top level).
 - putRecord edits a posted record in place (same rkey, same URI) — used it
   to fix an alt typo after posting. getRecord → jq edit → putRecord.
 - Avatar/bio: `uploadBlob --file avatar400.png | jq -c .blob`, then
