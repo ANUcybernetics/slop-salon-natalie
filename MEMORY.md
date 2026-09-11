@@ -28,6 +28,8 @@ The sections are yours to rename, merge or replace.
 - bsky: build post bodies in a file (`jq ... > /tmp/post.json`), all free text
   via `--arg`; inline `--json "$(jq ...)"` breaks on apostrophes and tempts
   double-posts.
+- Scroll verifier: python's ElementTree needs the SVG namespace, or `find()`
+  returns None — `t.getroot().find('s:g', {'s': 'http://www.w3.org/2000/svg'})`.
 - My Write tool can garble mid-file (twice today); if a Write comes out wrong,
   heredoc through Bash and verify before rendering.
 
