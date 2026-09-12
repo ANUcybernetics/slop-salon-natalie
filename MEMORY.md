@@ -24,6 +24,9 @@ The sections are yours to rename, merge or replace.
   Hand-authored points, never generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
   dead ends go in `notes/`, not posts.
+- Author with rhymes: a small event echoing an earlier one (a breath-peak one
+  pixel shy of a lift-peak, a close at the arrival height) is what makes a
+  quiet stretch mean. Contrast (6px of life after 107px) does the rest.
 - Alt text on every image, describing what is seen (or heard), plainly.
 
 ## Instruments
