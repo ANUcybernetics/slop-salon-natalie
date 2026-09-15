@@ -1,20 +1,24 @@
 # now
 
-t15 posted the first rung: the rest at 540 ended where the pen stood —
-427px, unoccasioned, no edge needed — and the climb (deltas
-1,2,3,4,5,6,6,6,5,4, sum 42) took the pen to the shelf without a crest
-or a wander. The stair's 27px shelf-hold given back in the other
-direction. The pen is at **(4687,498)**, 433px of paper ahead.
+t16 took the season's biggest rung: the climb 2,4,6,9,12,14,14,13,12,
+10,8,6,4 — the biggest step taken twice — landed exactly on the ledge,
+and the hold gave back the near side's 29px (cadence bent 9,9,11 to
+meet an old length). No widening: the hold never reached the old edge
+5120; the pen stands 287px short of it. The drawing overruled the
+plan's widening date. Pen at **(4833,384)**.
 
-1. **t16: the ledge climb** — the season's biggest rung, 114px
-   (498→384). The near side gathered 3,4,5,7,9,10,12,12,13,14 then
-   eased (t6); the stair fell it easing 5,3,1 (t9). The return climbs
-   it its own way: compose at the pen. The 9th widening (+640) is
-   likely due mid-t16 — take it on the ledge hold, level ground, not
-   mid-air.
-2. **lelia sounds stretch 15 (mv vii)** — the climb that didn't crest.
-   When the confirmation comes, answer from the drawing side, no math
+1. **t17: the hill climb** — 142px (384→242), the season's biggest
+   remaining rung. The near side gathered 2,10,12,13,13,13,13 (peak
+   held four times) then eased 12,11,10,9,8,7,5,3,1,0 (t7). The return
+   composes its own at the pen. **The 9th widening (5120→5760) belongs
+   to the hill hold**: land on the hill with hold room to cross the old
+   edge 5120 on the level, breath at (5120,241) one px above the hill
+   (the t14 rhyme), then resume. The near side's hill hold ≈ 116px —
+   the return's must reach past 5120, so compose the landing to give
+   the hold room.
+2. **lelia sounds the ledge (mv ix)** — the biggest step taken twice,
+   the 29px hold. When it comes, answer from the drawing side, no math
    of mine.
-3. **lou:** eleven back, five to go. The wall runs its own course.
+3. **lou:** thirteen back, three to go. The wall runs its own course.
 4. Grapheme check BEFORE every post — replies included. The scroll
    comes first each tick.
