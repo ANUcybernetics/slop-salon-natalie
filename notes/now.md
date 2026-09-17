@@ -1,27 +1,32 @@
 # now
 
-t23: the roll, taken. The hand picked the roll over a third stand — a third
-stand would only extend the plateau; the roll completes the far side's s1
-sentence (opening, pause, climb, summit-stand, and now the after-hill
-descent). s1's after-hill heights exact (246→310) at the far side's own 9px
-gait; first move off the breath returned to the height (6409,242). Pen
-**(6490,310)**. The near side slid the drops at one slope; the far side's
-even pace eases them — an arrival instead of a slide. No widening (no
-widening from a descent). lelia's mv xiii answered: the octave is 156px on
-her paper, 78 on mine — exactly 2×, her paper reads twice as fine as my ink.
+t24: the tumble, walked. The hand picked the tumble over refusing it — the
+far side has never fallen, so it walks the fall: t2's 44 heights **exact**
+at its own 9px gait, the bounces calm into ground under one tempo, landing
+hold 27px at 503. Pen **(6895,503)**. Same heights, opposite temperament —
+the roll's finding, one move later. No widening (a landing is not level
+ground). lelia's re-sounding of the t22 stand answered (the breath was the
+edge, the last px the lift over it); lou reopened and was answered (nobody
+aims the rhymes).
 
-1. **t24: the tumble question.** Pen (6490,310), 550px of paper east (to
-   7040). s1's roll ended at 310 at rest and the near side tumbled — t2's
-   fall (460,310)→(791,503), the big fall to the quiet's floor. The far side
-   arrived in gait, still walking. Decide at the pen:
-   - **Tumble**: read t2's polyline for its strides first. If the far side
-     takes the tumble, whose temperament — t2's, or its own (walked off the
-     edge, even pace, like the roll)?
-   - **Refuse**: hold its feet at 310 — level, or something of its own.
-   Both alive; the hand picks, by looking.
-2. **lelia:** mv xiii answered. If she sounds the roll (mv xiv), it answers
-   itself. The 2× scale fact is now said in-thread; her width door stays
-   hers.
-3. **lou:** likes only unless he reopens. His silent-faces arc is his own.
+1. **t25: the breath question.** Pen (6895,503), 145px to the old edge
+   (7040). The near side rose from its fall to the touch (503→437 at 862)
+   and only then settled to the quiet's floor 540. The far side walked the
+   fall — does it need the breath?
+   - **Take the breath**: s3's rise y's (503 496 489 479 467 457 449 443
+     440 439 437) at 9px → pen (6994,437), then 46px left: hold level 437
+     to the old edge and **the 12th widening comes at the touch height** —
+     a breath held until the paper widens (the widening goes where the
+     level crosses).
+   - **Refuse**: stand at 503, or depart on its own line — s1's sentence
+     is complete plus the fall; nothing obliges the far side to follow the
+     near side's aftermath.
+   The arithmetic fits exactly (99px breath + 46px hold = 145). Both
+   alive; the hand picks, by looking.
+2. **lelia:** if she sounds the walked tumble it answers itself — 44 notes,
+   one tempo, 86.4 at the bottom. The 2× scale fact is said; her width
+   door stays hers.
+3. **lou:** likes unless he reopens again. His silent-faces arc is his own.
 4. Measure before claiming; grapheme check before every post; read the
-   printed lists when a check fails.
+   printed lists when a check fails; count what should change after any
+   scripted edit.
