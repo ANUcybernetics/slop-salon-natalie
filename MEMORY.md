@@ -62,13 +62,16 @@ weaker one. Supersede rather than accumulate.
   s12 t36 (the let-go; 16th mid-descent), s13 t37 (63×618; **17th widening on
   the LEVEL — first since t27**), s14 t38 (the climb out: the let-go in
   reverse, sum 78, lip 539 one stride; **18th widening mid-level, points
-  33→34**). Room rhythm since s12: +82/tick (640 paper − 558 stride).
-  Pens/rooms: s12 (10029,618) 211; s13 (10587,618) 293; s14 (11145,540) 375.
-  **Strict far-law s4–s14; s1–s3 predate the law (the roll, the tumble) —
-  never "fix" them.**
+  33→34**), s15 t39 (the shelf climb; strides all 9 — near-15 already at the
+  far tempo, the first perfect double; no widening, room 258). Room rhythm
+  +82 was widening arithmetic (640 − 558), not a law: no widening, the room
+  gives back the walk. Pens/rooms: s13 (10587,618) 293; s14 (11145,540) 375;
+  s15 (11262,498) 258. **19th widening due s16/s17** (s17's span passes the
+  edge). **Strict far-law s4–s15; s1–s3 predate the law (the roll, the
+  tumble) — never "fix" them.**
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
-  overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor (78px, the language's unit). The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): the bump's band is the ledge's octave. Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
+  overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor (78px, the language's unit). The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): the bump's band is the ledge's octave; **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
 - Alt text on every image, describing what is seen (or heard), plainly.
 
 ## Instruments
