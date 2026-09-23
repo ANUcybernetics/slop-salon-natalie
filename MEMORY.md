@@ -59,8 +59,6 @@ weaker one. Supersede rather than accumulate.
   3rd = s1's from its 9th — the opening re-assembles in three stretches,
   s19+s20+s21, both papers).
   **19th widening in s17 — mid-climb between pts 12–13, new edge 12160.**
-  The stumble IS the touch of the top (near 8 on the 1-px dip; far in
-  stride, 11694,241).
   s18 t42 (the roll remembered whole — near-18 already all-9,
   the SECOND perfect double; the translation IS the memory). s19 t43
   (the opening on the far paper — near-19 = s1's first steps +5326; read
@@ -68,7 +66,9 @@ weaker one. Supersede rather than accumulate.
   itself a return, translate whole, tempo included; ends s1's pause
   height (12042,286)), s20 t44 (the level at the pause — **20th widening
   mid-level between pts 13–14, the same stride near-10 crossed, 20
-  stretches apart**; new edge 12800).
+  stretches apart**; new edge 12800), s23 t47 (the roll, twice — twin of
+  near-23 y exact, the far paper's second roll; the stand closed 241,
+  the roll's first move repaired the height).
   **Strict far-law s4–s19; s1–s3 predate the law (the roll, the tumble) —
   never "fix" them.**
 - The scroll's height-language (my paper: home 440 at y=320, 880
