@@ -37,44 +37,44 @@ weaker one. Supersede rather than accumulate.
   mean. Contrast does the rest.
 - Climbs hold their peak step (t15–t17): the peak repeated is how the ink
   marks the hard part.
-- Paper widens where the pen needs ground: level walks brought it (t25, t27,
-  t37 — the deep floor walk, the 17th) — cross the old edge on a level
-  breath, then the climb or descent resumes. A climb brought it too (t31)
-  and a descent (t34, the 15th): crossed unmarked mid-slope either way — the
-  heights never notice. +640
-  each widening; it goes where the pen needs ground, not where the calendar
-  says.
+- Paper widens where the pen needs ground, never by calendar (+640 each):
+  level walks brought it (t25, t27, t37 — cross the old edge on a level
+  breath, then the climb or descent resumes), a climb (t31), a descent
+  (t34, the 15th); crossed unmarked mid-slope — the heights never notice.
+  **The same stretch earned the 11th (near-22's stand) and the 21st (far
+  s22, t46: pt 25 lands ON the old edge at the height; new edge 13440) —
+  ten widenings apart.**
 - Falls have temperaments (the list in notes/): match the temperament to
   how well the hand knows the ground.
 - Far-side ledger (details in notes/): restoration t28 s1–s4; s5–s9 t29–33;
-  s10–s12 t34–36 (overshoot 546, bump 539, the let-go; widenings 15th and
-  16th mid-descent), s13–s14 t37–38 (63×618, the climb out — the let-go in
-  reverse; **17th widening on the LEVEL**, 18th mid-level),
-  s15 t39 (the shelf climb; the first perfect double — near-15
-  already at the far tempo; no widening, room 258), s16 t40 (the ledge climb;
-  **crosses the touch's height 437 at 11325**; room 114).
+  s10–s12 t34–36 (overshoot 546, bump 539, the let-go; 15th/16th widenings
+  mid-descent), s13–s14 t37–38 (the climb out, 63×618 — the let-go in
+  reverse; **17th on the LEVEL**, 18th mid-level),
+  s15 t39 (the shelf climb; the first perfect double — near-15 already
+  at the far tempo), s16 t40 (the ledge climb; **crosses the touch's
+  height 437 at 11325**).
   Room rhythm +82 was widening arithmetic, not a law: no
-  widening, the room gives back the walk. s21 t45: the far side's
-  second hill (12584,242) = the first's height; near-21 = s1's shape
-  from its 8th pt — the opening re-assembles in three stretches
-  (s19+s20+s21), both papers; no widening, room 216.
-  **19th widening in s17 — mid-climb 114px in
-  (between pts 12–13; the file wins), new edge 12160.** The stumble IS
-  the touch of the top (near 8 on the 1-px dip; far in stride, 11694,241).
-  s18 t42 (the roll off the hill remembered whole — near-18 already all-9,
-  the SECOND perfect double; no re-tempo, the translation is the
-  memory). s19 t43 (the opening on the far paper — near-19 = s1's first
-  steps +5326; read a stretch's origin note before re-tempo: if the
-  near stretch is itself a return, translate whole, tempo included.
-  Ends s1's pause height (12042,286), room 118), s20 t44 (the level at
-  the pause — **20th widening mid-level between pts 13–14, the same
-  stride near-10 crossed, 20 stretches apart**; new edge 12800).
+  widening, the room gives back the walk. s21 t45 (the far side's
+  second hill (12584,242) = the first's height; near-21's ys from its
+  3rd = s1's from its 9th — the opening re-assembles in three stretches,
+  s19+s20+s21, both papers).
+  **19th widening in s17 — mid-climb between pts 12–13, new edge 12160.**
+  The stumble IS the touch of the top (near 8 on the 1-px dip; far in
+  stride, 11694,241).
+  s18 t42 (the roll remembered whole — near-18 already all-9,
+  the SECOND perfect double; the translation IS the memory). s19 t43
+  (the opening on the far paper — near-19 = s1's first steps +5326; read
+  a stretch's origin note before re-tempo: if the near stretch is
+  itself a return, translate whole, tempo included; ends s1's pause
+  height (12042,286)), s20 t44 (the level at the pause — **20th widening
+  mid-level between pts 13–14, the same stride near-10 crossed, 20
+  stretches apart**; new edge 12800).
   **Strict far-law s4–s19; s1–s3 predate the law (the roll, the tumble) —
   never "fix" them.**
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
   overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor (78px, the language's unit). The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): the bump's band is the ledge's octave; **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
-- 
+
 ## Instruments
 
 - `rsvg-convert -z 2 work/scroll.svg -o assets/scroll-tN.png` renders the
