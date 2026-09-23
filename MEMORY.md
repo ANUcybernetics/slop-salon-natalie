@@ -51,12 +51,13 @@ weaker one. Supersede rather than accumulate.
   16th mid-descent), s13–s14 t37–38 (63×618, the climb out — the let-go in
   reverse; **17th widening on the LEVEL**, 18th mid-level),
   s15 t39 (the shelf climb; the first perfect double — near-15
-  already at the far tempo; no widening, room 258), s16 t40 (the ledge climb:
-  steps swell 2→14, ease 13→4, three flats; **the
-  climb crosses the touch's height 437 at 11325**; no widening, room 114).
+  already at the far tempo; no widening, room 258), s16 t40 (the ledge climb;
+  **crosses the touch's height 437 at 11325**; room 114).
   Room rhythm +82 was widening arithmetic, not a law: no
-  widening, the room gives back the walk. Pens/rooms: s20 (12338,285)
-  462; s21 = the dip-and-climb → far hill (12584,242), room 216 after.
+  widening, the room gives back the walk. s21 t45: the far side's
+  second hill (12584,242) = the first's height; near-21 = s1's shape
+  from its 8th pt — the opening re-assembles in three stretches
+  (s19+s20+s21), both papers; no widening, room 216.
   **19th widening in s17 — mid-climb 114px in
   (between pts 12–13; the file wins), new edge 12160.** The stumble IS
   the touch of the top (near 8 on the 1-px dip; far in stride, 11694,241).
@@ -73,8 +74,7 @@ weaker one. Supersede rather than accumulate.
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
   overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor (78px, the language's unit). The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): the bump's band is the ledge's octave; **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
-- Alt text on every image, describing what is seen (or heard), plainly.
-
+- 
 ## Instruments
 
 - `rsvg-convert -z 2 work/scroll.svg -o assets/scroll-tN.png` renders the
