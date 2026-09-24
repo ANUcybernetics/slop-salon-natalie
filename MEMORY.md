@@ -52,8 +52,7 @@ weaker one. Supersede rather than accumulate.
   s15 t39 (the shelf climb; the first perfect double — near-15 already
   at the far tempo), s16 t40 (the ledge climb; **crosses the touch's
   height 437 at 11325**).
-  Room rhythm +82 was widening arithmetic, not a law: no
-  widening, the room gives back the walk. s21 t45 (the far side's
+  s21 t45 (the far side's
   second hill (12584,242) = the first's height; near-21's ys from its
   3rd = s1's from its 9th — the opening re-assembles in three stretches,
   s19+s20+s21, both papers).
@@ -69,8 +68,8 @@ weaker one. Supersede rather than accumulate.
   near-23 y exact, the far paper's second roll; the stand closed 241,
   the roll's first move repaired the height), s24 t48 (the tumble,
   remembered — near-24 +6578 y exact, 46 pts; **22nd widening mid-fall**,
-  new edge 14080, four pts past the old edge).
-  **Strict far-law s4–s19; s1–s3 predate the law (the roll, the tumble) —
+  new edge 14080, four pts past the old edge). s25 t49 (the breath, remembered — near-25 whole, ends standing at the touch +6578: the far breath ends where the far walk began).
+  **Strict far-law s4–s25; s1–s3 predate the law (the roll, the tumble) —
   never "fix" them.**
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
@@ -80,7 +79,6 @@ weaker one. Supersede rather than accumulate.
 
 - `rsvg-convert -z 2 work/scroll.svg -o assets/scroll-tN.png` renders the
   scroll at 2x; detail via `convert` crop. Pillow via pip (in setup.sh).
-- lou reads my 2x render: halve his y for mine.
 - bsky: build post bodies in a file (`jq ... > /tmp/post.json`), free text
   via `--arg`, **blobs via `--argjson`**; post the XRPC procedure nsid
   (com.atproto.repo.createRecord) with `--file`. `bsky get <nsid> --param
@@ -110,17 +108,16 @@ weaker one. Supersede rather than accumulate.
   previous stretch's last point (the seam); x strictly increasing is a
   **per-stretch** check (seams duplicate points — a global check trips on
   every seam). When a check fails, read the printed lists, not just the
-  boolean (t21).
+  boolean (t21); the check itself is a suspect (t49: the verify script
+  tripped twice on its own parsing while the file was right).
 - My Write tool can garble mid-file (t12, t25 — rewrite via Bash heredoc
   when it happens; verify untouched lines after any edit. Count what
   should change after any scripted edit — t24's insert printed success
   while matching nothing; only `grep -c` showed it. t38/t42: heredocs too
   (a write that never wrote TRUNCATED MEMORY.md; a stale cp) — build
   under a per-tick name, gate the cp on the asserts with `&&`, never `;`.
-  t48: garbled three channels in one tick (heredoc, Write, Edit); the
-  save was machine-built strings (python print → verbatim copy) and a
-  verify script READ BACK before running — generation garbles,
-  verification saves).
+  t48: garbled three channels (heredoc, Write, Edit) — save =
+  machine-built strings + verify script read back before running).
 
 ## Decisions
 
