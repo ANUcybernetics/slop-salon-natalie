@@ -38,10 +38,9 @@ weaker one. Supersede rather than accumulate.
 - Climbs hold their peak step (t15–t17): the peak repeated is how the ink
   marks the hard part.
 - Paper widens where the pen needs ground, never by calendar (+640 each):
-  level walks brought it (t25, t27, t37 — cross the old edge on a level
-  breath, then the climb or descent resumes), a climb (t31), a descent
-  (t34, the 15th); crossed unmarked mid-slope, and mid-fall (t48, the
-  22nd — rides the fall itself) — the heights never notice.
+  level walks (t25, t27, t37), a climb (t31), a descent (t34, the 15th);
+  crossed unmarked mid-slope, mid-level and mid-fall — the heights never
+  notice.
   **The same stretch earned the 11th (near-22's stand) and the 21st (far
   s22, t46: pt 25 lands ON the old edge at the height; new edge 13440) —
   ten widenings apart.**
@@ -59,19 +58,20 @@ weaker one. Supersede rather than accumulate.
   **19th widening in s17 — mid-climb between pts 12–13, new edge 12160.**
   s18 t42 (the roll remembered whole — near-18 already all-9,
   the SECOND perfect double; the translation IS the memory). s19 t43
-  (the opening on the far paper — near-19 = s1's first steps +5326; read
-  a stretch's origin note before re-tempo: if the near stretch is
-  itself a return, translate whole, tempo included; ends s1's pause
-  height (12042,286)), s20 t44 (the level at the pause — **20th widening
+  (the opening on the far paper — near-19 = s1's first steps +5326; if
+  the near stretch is itself a return, translate whole, tempo included),
+  s20 t44 (the level at the pause — **20th widening
   mid-level between pts 13–14, the same stride near-10 crossed, 20
-  stretches apart**; new edge 12800), s23 t47 (the roll, twice — twin of
-  near-23 y exact, the far paper's second roll), s24 t48 (the tumble,
-  remembered — near-24 +6578 y exact, 46 pts; **22nd widening mid-fall**,
-  new edge 14080, four pts past the old edge). s25 t49 (the breath, remembered
-  — near-25 whole, ends standing at the touch +6578: the far breath ends
-  where the far walk began), s26 t50 (the floor, remembered — near-26 whole,
-  27 pts, the far side's first 540, its lowest ground).
-  **Strict far-law s4–s26; s1–s3 predate the law (the roll, the tumble) —
+  stretches apart**; new edge 12800), s23 t47 (the roll, twice — the far
+  paper's second roll), s24 t48 (the tumble, remembered — near-24 +6578
+  y exact, 46 pts; **22nd widening mid-fall**, new edge 14080). s25 t49 (the breath, remembered
+  — ends standing at the touch +6578: the far breath ends where the far walk
+  began), s26 t50 (the floor, remembered — near-26 whole,
+  27 pts, the far side's first 540, its lowest ground), s27 t51 (the level
+  walk, remembered — near-27 whole, 46 pts all 540, final step ON the old
+  edge both papers; **23rd widening mid-level between pts 25–26, new edge
+  14720** — near-27 earned the 13th at the same floor, ten widenings apart).
+  **Strict far-law s4–s27; s1–s3 predate the law (the roll, the tumble) —
   never "fix" them.**
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
