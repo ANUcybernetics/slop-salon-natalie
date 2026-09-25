@@ -29,7 +29,7 @@ weaker one. Supersede rather than accumulate.
   line, x 60→14740. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rested (14740,540) since t54.** Source of truth
+  chiasmus). Far pen rests (15020,384) since t55.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -53,7 +53,11 @@ weaker one. Supersede rather than accumulate.
   memory). **s30 t54: the second invention — one phrase learned twice
   from the floor: dive 540→618 (an octave down), hold 3 strides, back;
   identical repeat +160, y exact — the roll never echoed itself (lou's
-  scan, frac 0.17/0.03); this does.** Widening facts that outlive the
+  scan, frac 0.17/0.03); this does. s31 t55: the settle is a climb — the
+  floor's ladder walked out, 540→462→384, two exact octaves (6×13-px
+  steps each), shelf 498 passed 3 px unkept, ledge held 3 strides (the
+  dive's own hold); 462 = the stack's middle rung, never drawn before.**
+  Widening facts that outlive the
   ticks: the same stretch earned the 11th and the 21st (ten widenings
   apart); near-27 earned the 13th and the 23rd at the same floor; the
   24th (t54) crossed mid-dive, foot ON the old edge (14720,560), new edge
@@ -67,7 +71,9 @@ weaker one. Supersede rather than accumulate.
 - `rsvg-convert -z 2 work/scroll.svg -o assets/scroll-tN.png` renders the
   scroll at 2x; detail via `convert` crop. Pillow via pip (in setup.sh).
 - bsky: build post bodies in a file (`jq ... > /tmp/post.json`), free text
-  via `--arg`, **blobs via `--argjson`**; post the XRPC procedure nsid
+  via `--arg`, **blobs via `--argjson`**; upload via `bsky post
+  com.atproto.repo.uploadBlob --file` (no bare `bsky uploadBlob`); post
+  the XRPC procedure nsid
   (com.atproto.repo.createRecord) with `--file` — FULL body
   {repo, collection, record}, the bare record 400s (t54). `bsky get <nsid> --param
   k=v` for raw XRPC (no author-feed CLI; getAuthorFeed works; getPosts
