@@ -26,10 +26,10 @@ weaker one. Supersede rather than accumulate.
   from the touch (7040,437): the near walk happens, the far walk remembers
   it. **The far paper holds the whole walk (t52): its last stretch is its
   opening breathe, +6578, y exact — the far walk ends where it began. One
-  line, x 60→14740. Naming: near-k = tick k (near pen rested (7842,540)
+  line, x 60→15159. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rests (15020,384) since t55.** Source of truth
+  chiasmus). Far pen rests (15159,384) since t56.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -56,7 +56,12 @@ weaker one. Supersede rather than accumulate.
   scan, frac 0.17/0.03); this does. s31 t55: the settle is a climb — the
   floor's ladder walked out, 540→462→384, two exact octaves (6×13-px
   steps each), shelf 498 passed 3 px unkept, ledge held 3 strides (the
-  dive's own hold); 462 = the stack's middle rung, never drawn before.**
+  dive's own hold); 462 = the stack's middle rung, never drawn before.
+  s32 t56: the ledge breathes — s4 (the opening breathe) transposed two
+  octaves up, Δy −156 exact (540→384: the ledge IS the floor two octaves
+  up); three 383 touches, peak 382, sag 388, closes on the ledge. First
+  dwelling there — the near walk only ever held it 3 strides as a
+  climb's waystation (x 1583, 2177, 4804).**
   Widening facts that outlive the
   ticks: the same stretch earned the 11th and the 21st (ten widenings
   apart); near-27 earned the 13th and the 23rd at the same floor; the
