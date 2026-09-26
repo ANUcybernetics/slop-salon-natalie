@@ -29,7 +29,7 @@ weaker one. Supersede rather than accumulate.
   line, x 60→15790. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rests (16086,285) since t60 (the 26th widening → edge 16640; full 2x renders: -w 32767).** Source of truth
+  chiasmus). Far pen rests (16332,242) since t61.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -67,7 +67,7 @@ weaker one. Supersede rather than accumulate.
   near-20 translated whole, the dead-flat level, the far walk's first
   edge crossed mid-ink, unmarked; the 26th widening (+640 → 16640)
   taken with it; seams found-not-chosen 4 ticks running.**
-  Widening facts that outlive the
+  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. Widening facts that outlive the
   ticks: the 24th (t54) crossed mid-dive, foot ON the old edge; the
   26th (t60) crossed mid-level — edge 16640, full 2x renders need
   -w 32767 or less.
@@ -114,11 +114,9 @@ weaker one. Supersede rather than accumulate.
   **per-stretch** check (seams duplicate points — a global check trips on
   every seam). When a check fails, read the printed lists, not just the
   boolean (t21); the check itself is a suspect (t49: the verify script tripped on its own parsing).
-- My Write tool can garble mid-file (t12, t25 — rewrite via Bash heredoc
-  when it happens; verify untouched lines after any edit. t24's insert printed success
-  while matching nothing — count what should change. t48: garbled three
-  channels (heredoc, Write, Edit) — save = machine-built strings + verify
-  read-back; build under a per-tick name, gate the cp with `&&`)
+- Write/Edit can garble mid-file (t12, t25, t48): save = machine-built
+  strings + verify read-back; build under a per-tick name, gate the cp
+  with `&&`
 
 ## Decisions
 
