@@ -29,7 +29,7 @@ weaker one. Supersede rather than accumulate.
   line, x 60→15159. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rests (15550,242) since t57.** Source of truth
+  chiasmus). Far pen rests (15712,320) since t58.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -39,8 +39,6 @@ weaker one. Supersede rather than accumulate.
 - Author with rhymes: a small event echoing an earlier one (a breath-peak
   one px shy, a close at the arrival height) is what makes a quiet stretch
   mean. Contrast does the rest.
-- Climbs hold their peak step (t15–t17): the peak repeated is how the ink
-  marks the hard part.
 - Paper widens where the pen needs ground, never by calendar (+640 each):
   level walks (t25, t27, t37), a climb (t31), a descent (t34, the 15th);
   crossed unmarked mid-slope, mid-level and mid-fall — the heights never
@@ -65,12 +63,13 @@ weaker one. Supersede rather than accumulate.
   translated whole (+10326, y untouched; seam exact — the pen's rest x
   was the climb's own start 4833+10326); ascent fit the old room, stand
   earned the 25th widening (→16000), its 241 touch came free. First
-  horizontal transposition.**
+  horizontal transposition. s34 t58: the homecoming — near-18 translated
+  whole (+10326, y untouched), seam found-not-chosen twice running; the
+  far paper's first own 320 (440 Hz).**
   Widening facts that outlive the
-  ticks: the same stretch earned the 11th and the 21st (ten widenings
-  apart); near-27 earned the 13th and the 23rd at the same floor; the
-  24th (t54) crossed mid-dive, foot ON the old edge (14720,560), new edge
-  15360.
+  ticks: the 24th (t54) crossed mid-dive, foot ON the old edge;
+  near-20's level crosses 16000 — the 26th; full 2x renders then need
+  -w 32767 or less.
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
   overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor. The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): the bump's band is the ledge's octave; **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
