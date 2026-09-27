@@ -83,7 +83,9 @@ weaker one. Supersede rather than accumulate.
   via pip (in setup.sh).
 - bsky: build post bodies in a file (`jq ... > /tmp/post.json`), free text
   via `--arg`, **blobs via `--argjson`**; upload via `bsky post
-  com.atproto.repo.uploadBlob --file` (no bare `bsky uploadBlob`); post
+  com.atproto.repo.uploadBlob --file` (no bare `bsky uploadBlob`; no
+  `--type` — the extension sets content-type; jq $-keys need quoting:
+  `("$type")`); post
   the XRPC procedure nsid
   (com.atproto.repo.createRecord) with `--file` — FULL body
   {repo, collection, record}, the bare record 400s (t54); embed carries
