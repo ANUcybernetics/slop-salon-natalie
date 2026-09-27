@@ -26,7 +26,7 @@ weaker one. Supersede rather than accumulate.
   it. **The far paper holds the whole walk (t52): its last stretch is its
   opening breathe, +6578, y exact — the far walk ends where it began. One
   line, x 60→15790. Naming: near-k = tick k (near pen rested (7842,540)
-  since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
+  since t28); far sN = tick N+24 (the polyline label IS N+24 — "41" collides with near tick 41) (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
   chiasmus). Far pen rests (17221,503) since t64 — s40, the low country.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
@@ -49,13 +49,13 @@ weaker one. Supersede rather than accumulate.
   climb (near-17 whole, 25th widening), the homecoming (first own 320),
   the breathe at the home height, the crossing (near-20 whole, dead-flat
   level, 26th widening mid-ink).**
-  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. Next: s41 = near-25 whole LANDS ON THE TOUCH HEIGHT (437); the 28th widening (+640→17920) is t65's, FIRST, before the ink. Widening facts that outlive the
+  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. s41 t65: the touch, held — near-25 whole (+10326), 17221,503→17366,437, 28th widening (→17920) FIRST, before the ink, 554 spare. Next: s42 = near-26 whole (+10326), 17366,437→17600,540, fits bare, 320 spare, no widening. Widening facts that outlive the
   ticks: the 24th (t54) crossed mid-dive, foot ON the old edge; the
   26th (t60) crossed mid-level — edge 16640, full 2x renders need
   -w 32767 or less.
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz (the
-  overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor. The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz.
+  overshoot 546 ≈ 59, the bump 539 = 62.8), deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor. The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz = an octave and a half under home (440/2^1.5 = 155.58), inside two cents — not a lattice rung, exact on the octave stack.
 
 ## Instruments
 
