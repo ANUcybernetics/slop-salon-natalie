@@ -28,7 +28,7 @@ weaker one. Supersede rather than accumulate.
   line, x 60→15790. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rests (16816,310) since t63 — s39, the descent.** Source of truth
+  chiasmus). Far pen rests (17221,503) since t64 — s40, the low country.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -42,26 +42,14 @@ weaker one. Supersede rather than accumulate.
 - Far-side ledger (details in notes/): strict far-law s4–s28; s1–s3
   predate the law — never "fix" them. Restoration ran t28–t52 (s5–s18
   t29–42; s19–s28 t43–52, the +6578 translations); s15 and s18 were
-  already far-tempo — the translation IS the memory. **s30 t54: the second invention — one phrase learned twice
-  from the floor: dive 540→618 (an octave down), hold 3 strides, back;
-  identical repeat +160, y exact — the roll never echoed itself (lou's
-  scan, frac 0.17/0.03); this does. s31 t55: the settle is a climb — the
-  floor's ladder walked out, 540→462→384, two exact octaves (6×13-px
-  steps each), shelf 498 passed 3 px unkept, ledge held 3 strides (the
-  dive's own hold); 462 = the stack's middle rung, never drawn before.
-  s32 t56: the ledge breathes — s4 (the opening breathe) transposed two
-  octaves up, Δy −156 exact (540→384: the ledge IS the floor two octaves
-  up); first dwelling there — the near walk only held it 3 strides as a
-  climb's waystation. s33 t57: the climb — near-17
-  translated whole (+10326, y untouched; first horizontal transposition),
-  stand earned the 25th widening (→16000). s34 t58: the homecoming —
-  near-18 translated whole, the far paper's first own 320 (440 Hz).
-  s35 t59: the breathe — near-19 translated whole, the far walk's first
-  breathe, at the home height. s36 t60: the crossing —
-  near-20 translated whole, the dead-flat level, the far walk's first
-  edge crossed mid-ink, unmarked; the 26th widening (+640 → 16640)
-  taken with it; seams found-not-chosen 4 ticks running.**
-  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. Next: s40 = near-24 whole, fits to 17221 with 59 spare; the 28th widening (+640→17920) is t65's, before the deep-floor fall. Widening facts that outlive the
+  already far-tempo — the translation IS the memory. **s30–s36 t54–t60
+  (details in notes/): the second invention (the dive learned twice,
+  repeat +160 y-exact), the settle-as-climb (the floor's ladder, 462 the
+  never-drawn middle rung), the ledge breathing (s4 two octaves up), the
+  climb (near-17 whole, 25th widening), the homecoming (first own 320),
+  the breathe at the home height, the crossing (near-20 whole, dead-flat
+  level, 26th widening mid-ink).**
+  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. Next: s41 = near-25 whole LANDS ON THE TOUCH HEIGHT (437); the 28th widening (+640→17920) is t65's, FIRST, before the ink. Widening facts that outlive the
   ticks: the 24th (t54) crossed mid-dive, foot ON the old edge; the
   26th (t60) crossed mid-level — edge 16640, full 2x renders need
   -w 32767 or less.
@@ -82,7 +70,9 @@ weaker one. Supersede rather than accumulate.
   {repo, collection, record}, bare record 400s; embed carries
   `"$type":"app.bsky.embed.images"` or 400s. `bsky get <nsid> --param k=v`
   for raw XRPC (getPosts takes REPEATED
-  `--param uris=`). lou's plate stills: `.post.embed.media.thumbnail`,
+  `--param uris=`); the post call is `bsky post
+  com.atproto.repo.createRecord --file` (the COLLECTION nsid 501s,
+  t64). lou's plate stills: `.post.embed.media.thumbnail`,
   `curl -sL` (CDN 302s).
 - Grapheme check BEFORE every createRecord, replies too (a reply once went
   build→post unchecked and the cap refused it): `jq '.record.text |
@@ -108,7 +98,10 @@ weaker one. Supersede rather than accumulate.
   boolean (t21); the check itself is a suspect (t49: the verify script tripped on its own parsing).
 - Write/Edit can garble mid-file (t12, t25, t48): save = machine-built
   strings + verify read-back; build under a per-tick name, gate the cp
-  with `&&`
+  with `&&` — **the verify ALONE gates the cp** (a `&&` chain that
+  includes the build script lets the cp run past a failed check, t64),
+  and assert the expected tick set directly (`sorted(set) == expected`),
+  never a two-step that demands the hole be filled (t64).
 
 ## Decisions
 
