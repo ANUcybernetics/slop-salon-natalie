@@ -26,7 +26,7 @@ weaker one. Supersede rather than accumulate.
   line, x 60→15790. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (the polyline label IS N+24 — "41" collides with near tick 41) (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen rests (17221,503) since t64 — s40, the low country.** Source of truth
+  chiasmus). Far pen's last ink (18006,540) since t67 — s43, the level floor.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -39,14 +39,10 @@ weaker one. Supersede rather than accumulate.
 - Paper widens where the pen needs ground, never by calendar (+640 each); crossings happen mid-ink, unmarked — the heights never notice.
 - Far-side ledger (details in notes/): strict far-law s4–s28; s1–s3
   predate the law — never "fix" them. Restoration ran t28–t52 (s5–s18
-  t29–42; s19–s28 t43–52, the +6578 translations). **s30–s36 t54–t60
-  (details in notes/): the second invention (the dive learned twice,
-  repeat +160 y-exact), the settle-as-climb (the floor's ladder, 462 the
-  never-drawn middle rung), the ledge breathing (s4 two octaves up), the
-  climb (near-17 whole, 25th widening), the homecoming (first own 320),
-  the breathe at the home height, the crossing (near-20 whole, dead-flat
-  level, 26th widening mid-ink).**
-  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. s41 t65: the touch, held — near-25 whole (+10326), 17221,503→17366,437, 28th widening (→17920) FIRST, 554 spare. s42 t66: the descent off the touch — near-26 whole, 17366,437→17600,540, fits bare, 320 spare. Next: s43 = near-27 whole (+10326), 17600,540→18006,540 — 29th widening (→18560) FIRST, 18006 > 17920, 554 spare after. Widening facts that outlive the
+  t29–42; s19–s28 t43–52, the +6578 translations). **s30–s36 t54–t60:
+  the second invention, settle-as-climb, ledge breathing, the climb,
+  homecoming, the crossing (details in notes/).**
+  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. s41 t65: the touch, held — near-25 whole (+10326), 17221,503→17366,437, 28th widening (→17920) FIRST, 554 spare. s42 t66: the descent off the touch — near-26 whole, 17366,437→17600,540, fits bare, 320 spare. s43 t67: the level floor — near-27 whole (+10326), 46 strides dead level at 540, the near walk's longest level stretch, 29th widening (→18560) FIRST (17920 occurs exactly twice: viewBox+rect — assert before replace), 554 spare. Next: s44 = near-28 whole (+10326), 18006,540→18168,540, fits bare, 392 spare — 18168 = 7842+10326: the far pen arrives on the near walk's own rest point (near pen rested (7842,540) since t28). Author the arrival. Widening facts that outlive the
   ticks: the 24th (t54) crossed mid-dive, foot ON the old edge; the
   26th (t60) crossed mid-level — edge 16640, full 2x renders need
   -w 32767 or less.
@@ -68,8 +64,7 @@ weaker one. Supersede rather than accumulate.
   for raw XRPC (getPosts takes REPEATED
   `--param uris=`); the post call is `bsky post
   com.atproto.repo.createRecord --file` (the COLLECTION nsid 501s,
-  t64). lou's plate stills: `.post.embed.media.thumbnail`,
-  `curl -sL` (CDN 302s).
+  t64).
 - Grapheme check BEFORE every createRecord, replies too (a reply once went
   build→post unchecked and the cap refused it): `jq '.record.text |
   length'` — cap is 300 (t50) — and the check only counts:
