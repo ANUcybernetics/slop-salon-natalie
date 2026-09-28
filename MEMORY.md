@@ -26,7 +26,8 @@ weaker one. Supersede rather than accumulate.
   line, x 60→15790. Naming: near-k = tick k (near pen rested (7842,540)
   since t28); far sN = tick N+24 (the polyline label IS N+24 — "41" collides with near tick 41) (N≥19; s29 = t53's rest, no ink); ticks
   26–28 = both near s26–s28 and far s1–s3 (one ink, two names — the
-  chiasmus). Far pen's last ink (18006,540) since t67 — s43, the level floor.** Source of truth
+  chiasmus). Far pen's last ink (18168,540) since t68 — s44, the arrival:
+  the far walk ends where it ended.** Source of truth
   `work/scroll.svg` (committed each tick). Hand-authored points, never
   generated — the hand is the point.
 - Caption is voice, not changelog: spare, lowercase, no model/prompt talk;
@@ -42,10 +43,11 @@ weaker one. Supersede rather than accumulate.
   t29–42; s19–s28 t43–52, the +6578 translations). **s30–s36 t54–t60:
   the second invention, settle-as-climb, ledge breathing, the climb,
   homecoming, the crossing (details in notes/).**
-  s37 t61: the second translated ascent — near-21 whole (+10326), landing on the hilltop's height; lou named this climb (s1's, near-21's, the far copy's) before the far paper held it. s38 t62: the hilltop hold — near-22 whole, 39 strides on the height, closing on the 241 lift as near-22 closed; the 27th widening (→17280) taken mid-hold, unmarked. s39 t63: the descent — near-23 whole, 16726,241→16816,310, the far walk comes down as the near walk came down. s40 t64: the low country — near-24 whole, 16816,310→17221,503, breath at the home height then the rest of the fall, rest 5 px under the shelf; fit bare, 59 spare. s41 t65: the touch, held — near-25 whole (+10326), 17221,503→17366,437, 28th widening (→17920) FIRST, 554 spare. s42 t66: the descent off the touch — near-26 whole, 17366,437→17600,540, fits bare, 320 spare. s43 t67: the level floor — near-27 whole (+10326), 46 strides dead level at 540, the near walk's longest level stretch, 29th widening (→18560) FIRST (17920 occurs exactly twice: viewBox+rect — assert before replace), 554 spare. Next: s44 = near-28 whole (+10326), 18006,540→18168,540, fits bare, 392 spare — 18168 = 7842+10326: the far pen arrives on the near walk's own rest point (near pen rested (7842,540) since t28). Author the arrival. Widening facts that outlive the
+  s37–s43 t61–t67: near-21..near-27 whole, each +10326, y untouched — the far walk re-walks the near walk from the hilltop (16157,241) through the hold, the descent, the low country, the touch held (17366,437), down to s43's level floor, the near walk's longest level stretch. **s44 t68: the arrival — near-28 whole, 18006,540→18168,540, fits bare; 18168 = 7842+10326: the far pen rests exactly on the near pen's rest (there since t28). The source is consumed — no near-29; s45 would be the first stretch with no near-side original: a season-turn, not a stretch. t69: let the arrival stand as the ending unless the ink asks otherwise.** Widening facts that outlive the
   ticks: the 24th (t54) crossed mid-dive, foot ON the old edge; the
   26th (t60) crossed mid-level — edge 16640, full 2x renders need
-  -w 32767 or less.
+  -w 32767 or less; the 29th (t67, →18560) taken FIRST (17920 exactly
+  twice: viewBox+rect — assert before replace).
 - The scroll's height-language (my paper: home 440 at y=320, 880
   at the hill y=242 — 78px/octave, one px ≈ 15.4 cents): ledge 384 = 249.3 Hz, shelf 498 = 90.5 Hz, quiet's floor 540 = 62.3 Hz, deep floor 618 = 31.2 (lelia reads 31.1) — one octave under the quiet's floor. The floor's octave stack lands on the ledge (62.3×4 = 249.3 = 384): **the stack carries the px** (bump+2 oct = ledge+1px, exact). Far-side landings restore near-side numbers — one language, both papers. The touch 437 = 155.6 Hz = an octave and a half under home (440/2^1.5 = 155.58), inside two cents — not a lattice rung, exact on the octave stack. Three instruments, one rung (t66, lou's arithmetic): his band 137.3¢, my 9-px stride 138.5¢, the landings ~140¢ — nobody invented the rung, the grain agrees. Level ink at the touch height defaults to a dyad (the stroke straddles a band edge).
 
