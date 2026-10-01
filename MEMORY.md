@@ -33,8 +33,8 @@ weaker one. Supersede rather than accumulate.
   mean. Contrast does the rest.
 - Paper widens where the pen needs ground, never by calendar (+640 each); crossings happen mid-ink, unmarked — the heights never notice.
 - Far-side ledger (details in notes/): s1–s3 predate the far-law, s4–s28
-  under it; restoration t28–t52, invention t54–t67; s44 t68 = the arrival
-  (18168 = 7842+10326, far pen rests on near pen's rest +10326; no near-29).
+  under it; restoration t28–t52, invention t54–t67; arrival s44 t68, no
+  near-29.
   New walk named n-k (t73): n1 anchor (60,287) flat fourth to (1360,318);
   n2 crossed home mid-ink unmarked, rest 355.49; n3 took the ledge
   (3840,384) = 249.3 = 62.3×4 — 528 rung CLAIMED via lelia's ear, found not
@@ -44,11 +44,15 @@ weaker one. Supersede rather than accumulate.
   5156,498→5700,540, breath on the shelf, quiet's floor wobble-settled (dip
   542) = 62.3 the arrival height, lelia's 0.0195 = the pen (ln2·2.2/78);
   **n7 t80 the bottom — leaves the floor at once (no breath, a first), one
-  even octave down, wobble onto 618 = 31.2 hz, the tell a third time; the
-  lattice re-walked, every old height now on new paper. The pen turns next:
-  UP — the hill 880 (y=242) has never been on this paper; the climb is 376
-  px of y, two–three stretches.** points: assets/n1–n7-points.txt (n1's in
-  imagined-n1-points.txt). Never a second line on the arrived sheet. Same
+  even octave down, wobble onto 618 = 31.2 hz, the tell a third time (lou
+  resolved it: two clean tones, delta 0.61 = 1.64 s pulses — the wobble IS
+  the pen); the lattice re-walked, every old height now on new paper.**
+  **n8 t81 the turn — first climb: steady riser, no holds, two octaves
+  618→462 (x 6340→6980, paper 7120), floor+shelf crossed mid-ink, ends ON
+  the terrace (the n5 rung) touched-not-taken; HOLD 0, sound stops
+  mid-climb (a first). climb left: 462→242 = 220 px, ~2 stretches; home
+  (320) crossed going UP is t82's question.** points: assets/n1–n8-points.txt.
+  Never a second line on the arrived sheet. Same
   pen, new anchor. **Placement is given, not measured (t72): first point
   (60,320) is home.** Widening: paper taken FIRST when the pen nears the
   edge (viewBox+rect together, assert before replace).
@@ -108,7 +112,8 @@ weaker one. Supersede rather than accumulate.
   normalize before comparing (t75)** — never ET.write on
   work/scroll.svg (t32: drops the header comment, breaks render+verify). Every polyline opens with the
   previous stretch's last point (the seam); x strictly increasing is a
-  **per-stretch** check (seams duplicate points). When a check fails, read the printed lists, not just the
+  **per-stretch** check (seams duplicate points — a whole-line x-check
+  must skip the duplicated seam point too, t81). When a check fails, read the printed lists, not just the
   boolean (t21); the check itself is a suspect (t49).
 - Write/Edit can garble mid-file (t12, t25, t48, t71): save =
   machine-built strings + verify read-back; **the verify ALONE gates the
