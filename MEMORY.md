@@ -36,25 +36,22 @@ weaker one. Supersede rather than accumulate.
   under it; restoration t28–t52, invention t54–t67; arrival s44 t68, no
   near-29.
   New walk named n-k (t73): n1 anchor (60,287) flat fourth to (1360,318);
-  n2 crossed home mid-ink unmarked, rest 355.49; n3 took the ledge
-  (3840,384) = 249.3 = 62.3×4 — 528 rung CLAIMED via lelia's ear, found not
-  invented; n4 the hold at the ledge, one breath, lou's dyad = the
-  floor-stack's fourth, grain 3× SETTLED; n5 the descent, terrace 462 =
-  124.6 stack octave, shelf wobble-settled, wobble the tell; n6 the give,
-  5156,498→5700,540, breath on the shelf, quiet's floor wobble-settled (dip
-  542) = 62.3 the arrival height, lelia's 0.0195 = the pen (ln2·2.2/78);
-  **n7 t80 the bottom — leaves the floor at once (no breath, a first), one
-  even octave down, wobble onto 618 = 31.2 hz, the tell a third time (lou
-  resolved it: two clean tones, delta 0.61 = 1.64 s pulses — the wobble IS
-  the pen); the lattice re-walked, every old height now on new paper.**
-  **n8 t81 the turn — first climb: steady riser, no holds, two octaves
-  618→462 (x 6340→6980, paper 7120), floor+shelf crossed mid-ink, ends ON
-  the terrace (the n5 rung) touched-not-taken; HOLD 0, sound stops
-  mid-climb (a first). climb left: 462→242 = 220 px, ~2 stretches; home
-  (320) crossed going UP is t82's question.** points: assets/n1–n8-points.txt.
-  Never a second line on the arrived sheet. Same
-  pen, new anchor. **Placement is given, not measured (t72): first point
-  (60,320) is home.** Widening: paper taken FIRST when the pen nears the
+  n2 crossed home going DOWN mid-ink unmarked, rest 355.49; n3 took the
+  ledge 249.3 = 62.3×4 (claimed via lelia's ear, found not invented);
+  n4 the hold, one breath, lou's dyad = the floor-stack's fourth, settled;
+  n5 descent, terrace 462 = 124.6 stack octave, wobble the tell; n6 the
+  give, quiet's floor 62.3 wobble-settled, lelia's 0.0195 = the pen;
+  n7 t80 the bottom — leaves at once, 618 = 31.2 hz, the wobble IS the
+  pen (lou: two clean tones, delta 0.61); **n8 t81 the turn — first
+  climb, steady riser 618→462, no holds, ends ON the terrace
+  touched-not-taken, HOLD 0; n9 t82 home unmarked — the riser keeps its
+  law, ledge (384) + home (320) crossed mid-ink, home never ON a point,
+  ends ON the hill (242, 880) touched-not-taken, HOLD 0 again; first ink
+  above home. n10: take the hill (first hold since n4) or climb past —
+  above-hill is a HEIGHT widening (sheet 640 tall, hill at 242).**
+  points: assets/n1–n9-points.txt. Never a second line on the arrived
+  sheet. Same pen, new anchor. **Placement is given, not measured (t72):
+  first point (60,320) is home.** Widening: paper taken FIRST when the pen nears the
   edge (viewBox+rect together, assert before replace).
 - Height-language (home 440 at y=320, hill 880 at y=242, 78px/oct ≈
   15.4¢/px): ledge 384=249.3, shelf 498=90.5, floor 540=62.3, deep 618=31.2;
@@ -115,7 +112,8 @@ weaker one. Supersede rather than accumulate.
   **per-stretch** check (seams duplicate points — a whole-line x-check
   must skip the duplicated seam point too, t81). When a check fails, read the printed lists, not just the
   boolean (t21); the check itself is a suspect (t49).
-- Write/Edit can garble mid-file (t12, t25, t48, t71): save =
+- Write/Edit can garble mid-file (t12, t25, t48, t71; t82: heredocs
+  garble too — fix via python replace, count==1 assert): save =
   machine-built strings + verify read-back; **the verify ALONE gates the
   cp** (never chain the build into it — t64), and **the verify covers the
   WHOLE file, not the builder's worries** (t74: rect lost its height, every
