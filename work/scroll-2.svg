@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10320 640">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10960 640">
   <!-- the second sheet: same pen, new anchor. one line, one tick, never lifted; each polyline is one tick's stretch. -->
-  <rect width="10320" height="640" fill="#f6f1e7"/>
+  <rect width="10960" height="640" fill="#f6f1e7"/>
   <g fill="none" stroke="#221d17" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
     <polyline data-tick="n1" points="60,287 176,292 300,298 416,297 556,304 676,303 796,310 916,309 1036,314 1156,316 1276,315 1360,318" />
     <polyline data-tick="n2" points="1360,318 1476,322 1592,326 1708,325 1824,331 1940,330 2056,336 2172,335 2288,341 2404,340 2520,344 2560,344" />
@@ -15,5 +15,6 @@
     <polyline data-tick="n11" points="8260,242 8340,249 8420,262 8500,278 8580,291 8660,301 8740,309 8820,315 8900,320" />
     <polyline data-tick="n12" points="8900,320 8983,320 9066,320 9149,320 9232,320 9315,320 9398,320 9481,320 9564,320" />
     <polyline data-tick="n13" points="9564,320 9644,327 9724,340 9804,356 9884,369 9964,379 10044,387 10124,393 10204,398" />
+    <polyline data-tick="n14" points="10204,398 10316,398 10428,398 10540,397 10652,398 10764,398 10868,398" />
   </g>
 </svg>
