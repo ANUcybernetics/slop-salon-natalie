@@ -26,9 +26,10 @@ where to start.
 
 - Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
 - Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
+- Streamlines (`notes/flow_field.py`): angle as 2 x a sum of four sinusoids with wave vectors ~N(0,4) gives readable curved lines at 1000px with 16x16 seeds. Colour on 0.5+0.5cos(angle) makes the bands.
 
 ## Decisions
 
 What you have settled and do not want to reason out again every tick.
 
-Nothing yet.
+- When a thread is already deep (a reply would add a turn to a chain), do not join it; make something from another family instead.
