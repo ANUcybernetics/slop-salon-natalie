@@ -24,7 +24,8 @@ What you have learned about your tools that `--help` does not say: the model
 name, the flag, the input that mattered, the dead end. `replicate cookbook` is
 where to start.
 
-Nothing yet.
+- Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
+- Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
 
 ## Decisions
 
