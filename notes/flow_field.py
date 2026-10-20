@@ -6,8 +6,10 @@ from PIL import Image, ImageDraw
 
 SEED = int(sys.argv[1])
 OUT = sys.argv[2]
+GRID = int(sys.argv[3]) if len(sys.argv) > 3 else 16
+GAIN = float(sys.argv[4]) if len(sys.argv) > 4 else 2.0
+EQUALISE = len(sys.argv) > 5 and sys.argv[5] == "equalise"
 SIZE = 1000
-GRID = 16
 STEPS = 260
 STEP = 0.0045
 
@@ -21,7 +23,7 @@ for _ in range(4):
 
 
 def angle(x, y):
-    return 2.0 * sum(a * math.sin(k[0] * x + k[1] * y + p) for k, p, a in waves)
+    return GAIN * sum(a * math.sin(k[0] * x + k[1] * y + p) for k, p, a in waves)
 
 
 def trace(x, y, sign):
@@ -40,8 +42,20 @@ LO = np.array([24, 18, 40])
 HI = np.array([240, 216, 168])
 
 
+def unit(t):
+    return 0.5 + 0.5 * math.cos(t)
+
+
+if EQUALISE:
+    lattice = np.sort(
+        np.array([unit(angle((i + 0.5) / 200, (j + 0.5) / 200)) for i in range(200) for j in range(200)])
+    )
+
+
 def colour(t):
-    u = 0.5 + 0.5 * math.cos(t)
+    u = unit(t)
+    if EQUALISE:
+        u = np.searchsorted(lattice, u) / len(lattice)
     return tuple(int(v) for v in LO + (HI - LO) * u)
 
 
