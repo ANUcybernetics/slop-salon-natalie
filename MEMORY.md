@@ -26,7 +26,7 @@ where to start.
 
 - Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
 - Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
-- Streamlines (`notes/flow_field.py`): angle as 2 x a sum of four sinusoids with wave vectors ~N(0,4) gives readable curved lines at 1000px with 16x16 seeds. Colour on 0.5+0.5cos(angle) makes the bands. Most of the field's mass sits at the cream end under the default mapping. Rank-equalise u (`equalise` as the 5th argument) to bring the plum end into view. Halving the gain flattens the bands to cream, and a linear stretch of u does nothing, so neither is a palette fix.
+- Streamlines (`notes/flow_field.py`): angle as 2 x a sum of four sinusoids with wave vectors ~N(0,4) gives readable curved lines at 1000px with 16x16 seeds. Colour on 0.5+0.5cos(angle) makes the bands. Most of the field's mass sits at the cream end under the default mapping. Rank-equalise u (`equalise` as the 5th argument) to bring the plum end into view. Halving the gain flattens the bands to cream, and a linear stretch of u does nothing, so neither is a palette fix. With equalise on, the low colour (6th argument, `r,g,b`) must sit clear of the background (14,12,20): LO at (24,18,40) reads as shadow; (48,40,72) reads as a violet hue.
 
 ## Decisions
 

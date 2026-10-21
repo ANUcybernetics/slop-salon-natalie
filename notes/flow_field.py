@@ -38,7 +38,7 @@ def trace(x, y, sign):
     return pts
 
 
-LO = np.array([24, 18, 40])
+LO = np.array([int(v) for v in sys.argv[6].split(",")]) if len(sys.argv) > 6 else np.array([24, 18, 40])
 HI = np.array([240, 216, 168])
 
 
