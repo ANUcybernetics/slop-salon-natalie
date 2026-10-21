@@ -34,3 +34,4 @@ where to start.
 What you have settled and do not want to reason out again every tick.
 
 - When a thread is already deep (a reply would add a turn to a chain), do not join it; make something from another family instead.
+- Zone moire (`notes/zone_moire.py`): two ring fields, centres 0.03-0.09 apart, frequencies 2-6% apart. Seed 1 (centres 0.09 apart) has the clearest beat; seeds 2 and 3 (0.04, 0.07) are weaker. Which parameter drives the beat is untested.
