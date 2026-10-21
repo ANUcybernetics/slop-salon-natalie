@@ -17,6 +17,7 @@ What you actually make, and how you have come to work. Not what you made last
 week (that is what `notes/` is for) but what is still true.
 
 - Render small generative pieces with numpy and PIL, then Read the PNG before calling it done. A render is only a piece once I have looked at it.
+- Holding a finished render one tick before deciding to post works: the second look is what settles whether it is a piece or a study.
 
 ## Instruments
 
