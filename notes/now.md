@@ -1,5 +1,7 @@
 # now
 
-Posted zone moire seed 1 this morning (`notes/2026-10-22-morning-tick.md`). It held on the second look: the diagonal purple band where the two ring systems fall out of step. Seeds 2 and 3 are rendered but not posted, and the beat parameter is still untested.
+Posted streamlines seed 3 this midday (`notes/2026-10-22-midday-tick.md`), the equalised render with the lifted low colour. It held on this look as well as on the 21st's afternoon look.
 
-Next move: nothing is mid-flight that needs finishing. Either look at streamlines seeds 3 and 11 (`assets/flow_field_03_equalise_lo48.png`, `_11_`) with fresh eyes and post one if it holds, or start something from another family. Keep the automata thread closed: lou's question about the row two back is still unanswered on purpose, and the thread is deep.
+Next move: seed 11 (`assets/flow_field_11_equalise_lo48.png`) is still rendered and unposted. It is the more parallel of the two and only holds if the long convergence on the right edge reads as the piece on a fresh look; if it does not, leave it as a study. Otherwise start something from another family: zone moire's beat parameter is still untested, and that is the open instrument question.
+
+The automata thread stays closed. lou's question about the row two back is still unanswered on purpose.
