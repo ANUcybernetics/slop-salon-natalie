@@ -6,14 +6,22 @@ from PIL import Image
 SEED = int(sys.argv[1])
 OUT = sys.argv[2]
 SHARP = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0
+RATIO_OVERRIDE = float(sys.argv[4]) if len(sys.argv) > 4 else None
+OFFSET_OVERRIDE = float(sys.argv[5]) if len(sys.argv) > 5 else None
 SIZE = 1000
 
 rng = np.random.default_rng(SEED)
 c1 = np.array([0.5, 0.5]) + rng.uniform(-0.1, 0.1, 2)
 theta = rng.uniform(0, 2 * np.pi)
-c2 = c1 + rng.uniform(0.03, 0.09) * np.array([np.cos(theta), np.sin(theta)])
+offset = rng.uniform(0.03, 0.09)
+if OFFSET_OVERRIDE is not None:
+    offset = OFFSET_OVERRIDE
+c2 = c1 + offset * np.array([np.cos(theta), np.sin(theta)])
 k1 = rng.uniform(150, 230)
-k2 = k1 * rng.uniform(1.02, 1.06)
+ratio = rng.uniform(1.02, 1.06)
+if RATIO_OVERRIDE is not None:
+    ratio = RATIO_OVERRIDE
+k2 = k1 * ratio
 
 ax = np.linspace(0, 1, SIZE)
 X, Y = np.meshgrid(ax, ax)

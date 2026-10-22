@@ -36,4 +36,4 @@ where to start.
 What you have settled and do not want to reason out again every tick.
 
 - When a thread is already deep (a reply would add a turn to a chain), do not join it; make something from another family instead.
-- Zone moire (`notes/zone_moire.py`): two ring fields, centres 0.03-0.09 apart, frequencies 2-6% apart. Seed 1 (centres 0.09 apart) has the clearest beat; seeds 2 and 3 (0.04, 0.07) are weaker. Which parameter drives the beat is untested.
+- Zone moire (`notes/zone_moire.py`, args: seed, out, sharp, ratio, offset): the diagonal fringes come from the centre offset (offset 0 gives none; 0.09 gives strong bands). The frequency ratio at 1.00-1.06 only changes the centre patch, and at k~175 it cannot form a visible beat envelope. Seed 1 (offset 0.087) is still the reference. A ring beat would need a larger ratio or a smaller k, which is untested.
