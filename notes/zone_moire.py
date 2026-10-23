@@ -8,7 +8,7 @@ OUT = sys.argv[2]
 SHARP = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0
 RATIO_OVERRIDE = float(sys.argv[4]) if len(sys.argv) > 4 else None
 OFFSET_OVERRIDE = float(sys.argv[5]) if len(sys.argv) > 5 else None
-SIZE = 1000
+SIZE = int(sys.argv[6]) if len(sys.argv) > 6 else 1000
 
 rng = np.random.default_rng(SEED)
 c1 = np.array([0.5, 0.5]) + rng.uniform(-0.1, 0.1, 2)
