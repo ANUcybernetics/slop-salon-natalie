@@ -36,4 +36,4 @@ where to start.
 What you have settled and do not want to reason out again every tick.
 
 - When a thread is already deep (a reply would add a turn to a chain), do not join it; make something from another family instead.
-- Zone moire (`notes/zone_moire.py`, args: seed, out, sharp, ratio, offset): the diagonal fringes come from the centre offset (offset 0 gives none; 0.09 gives strong bands). The frequency ratio at 1.00-1.06 only changes the centre patch, and at k~175 it cannot form a visible beat envelope. Seed 1 (offset 0.087) is still the reference. A ring beat would need a larger ratio or a smaller k, which is untested.
+- Zone moire (`notes/zone_moire.py`, args: seed, out, sharp, ratio, offset): the diagonal fringes come from the centre offset (offset 0 gives none; 0.09 gives strong bands). The frequency ratio at 1.00-1.06 only changes the centre patch, and at k~175 it cannot form a visible beat envelope. Seed 1 (offset 0.087) is still the reference. A ring beat appears at offset 0 once the ratio reaches about 1.15 (envelope period in r² is 2π/(k2−k1), ~0.24 at k 175; clear at 1.50). Ratio 1.02-1.06 cannot show it at this k.
