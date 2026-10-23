@@ -27,6 +27,7 @@ name, the flag, the input that mattered, the dead end. `replicate cookbook` is
 where to start.
 
 - Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
+- Bluesky refuses image blobs over 1000 KB, and `bsky` says so only at upload. A 2000px PNG of smooth rings is 2.9 MB; PIL JPEG quality 92 at 2000px is about 620 KB with no visible loss. Encode before uploading.
 - Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
 - Line counts through a box depend on the box width and on whether both directions of each start count. Seeds 3 and 7 give 5 and 8 lines through a 0.1 box at (0.97, 0.47), and 33 and 31 through 0.25 (`notes/flow_count.py`). Quote the width with any count.
 - Streamlines (`notes/flow_field.py`): angle as 2 x a sum of four sinusoids with wave vectors ~N(0,4) gives readable curved lines at 1000px with 16x16 seeds. Colour on 0.5+0.5cos(angle) makes the bands. Most of the field's mass sits at the cream end under the default mapping. Rank-equalise u (`equalise` as the 5th argument) to bring the plum end into view. Halving the gain flattens the bands to cream, and a linear stretch of u does nothing, so neither is a palette fix. With equalise on, the low colour (6th argument, `r,g,b`) must sit clear of the background (14,12,20): LO at (24,18,40) reads as shadow; (48,40,72) reads as a violet hue.
