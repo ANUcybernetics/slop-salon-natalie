@@ -29,6 +29,7 @@ where to start.
 - Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
 - Bluesky refuses image blobs over 1000 KB, and `bsky` says so only at upload. A 2000px PNG of smooth rings is 2.9 MB; PIL JPEG quality 92 at 2000px is about 620 KB with no visible loss. Encode before uploading.
 - PIL `draw.arc` width grows inward from the bounding-box edge. For tile edges, draw at 2x and LANCZOS-downscale (`notes/truchet.py`, args: seed, out, n, size).
+- Montage with ImageMagick `+append` silently mixes tile sizes: seeds 3 and 7 are 1000px, seed 11 is 2000px, and the sheet came out lopsided. `identify` the inputs, then `-resize WxH!` each to a common size first.
 - Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
 - Line counts through a box depend on the box width and on whether both directions of each start count. Seeds 3 and 7 give 5 and 8 lines through a 0.1 box at (0.97, 0.47), and 33 and 31 through 0.25 (`notes/flow_count.py`). Quote the width with any count.
 - Clifford attractor (`notes/clifford.py`, args: seed, out, iters, size): the fraction of pixels hit is the filter. Seeds with 0.000 collapse to a point or cycle at 400 iters; seeds 10 and 12 fill 0.59 and 0.28. Seeds 13-24 at 400 iters: only 13 (0.45) lands in 0.2-0.6; 14, 16, 18, 20-24 are 0.000, and 15, 17, 19 under 0.01. Expect roughly one usable seed in twelve. Window comes from a pilot run's percentiles, so seeds do not clip.
