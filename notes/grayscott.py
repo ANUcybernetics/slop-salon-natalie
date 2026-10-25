@@ -6,7 +6,7 @@ from PIL import Image
 seed, out, steps, size = int(sys.argv[1]), sys.argv[2], int(sys.argv[3]), int(sys.argv[4])
 F = float(sys.argv[5]) if len(sys.argv) > 5 else 0.0545
 K = float(sys.argv[6]) if len(sys.argv) > 6 else 0.062
-N = 256
+N = int(sys.argv[7]) if len(sys.argv) > 7 else 256
 DU, DV = 0.16, 0.08
 
 rng = np.random.default_rng(seed)
