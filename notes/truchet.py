@@ -7,6 +7,7 @@ seed = int(sys.argv[1])
 out = sys.argv[2]
 n = int(sys.argv[3])
 size = int(sys.argv[4])
+colour_mode = sys.argv[5] if len(sys.argv) > 5 else "random"
 SS = 2
 
 BG = (14, 12, 20)
@@ -29,7 +30,10 @@ def arc(cx, cy, start, end, colour):
 for j in range(n):
     for i in range(n):
         x0, y0 = i * t, j * t
-        colour = CREAM if rng.random() < 0.5 else PLUM
+        if colour_mode == "checker":
+            colour = CREAM if (i + j) % 2 == 0 else PLUM
+        else:
+            colour = CREAM if rng.random() < 0.5 else PLUM
         if rng.random() < 0.5:
             arc(x0, y0, 0, 90, colour)
             arc(x0 + t, y0 + t, 180, 270, colour)

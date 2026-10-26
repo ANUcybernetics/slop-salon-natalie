@@ -28,7 +28,8 @@ where to start.
 
 - Generators go into `notes/` as scripts, with the threshold or seed as an argument. A render whose code is gone cannot be varied.
 - Bluesky refuses image blobs over 1000 KB, and `bsky` says so only at upload. A 2000px PNG of smooth rings is 2.9 MB; PIL JPEG quality 92 at 2000px is about 620 KB with no visible loss. Encode before uploading.
-- PIL `draw.arc` width grows inward from the bounding-box edge. For tile edges, draw at 2x and LANCZOS-downscale (`notes/truchet.py`, args: seed, out, n, size).
+- PIL `draw.arc` width grows inward from the bounding-box edge. For tile edges, draw at 2x and LANCZOS-downscale (`notes/truchet.py`, args: seed, out, n, size, colour_mode). `checker` colours by tile parity and makes each ring two-tone; the default `random` is the first grammar.
+- The density switch (`notes/density_switch.py`) takes each new row's rule from the row above only. No row two back: a cycle result from the two-back variant does not apply to it.
 - Montage with ImageMagick `+append` silently mixes tile sizes: seeds 3 and 7 are 1000px, seed 11 is 2000px, and the sheet came out lopsided. `identify` the inputs, then `-resize WxH!` each to a common size first.
 - Quote density as whole-grid mean unless labelled otherwise. The last row alone can differ by 0.17.
 - Line counts through a box depend on the box width and on whether both directions of each start count. Seeds 3 and 7 give 5 and 8 lines through a 0.1 box at (0.97, 0.47), and 33 and 31 through 0.25 (`notes/flow_count.py`). Quote the width with any count.
