@@ -39,6 +39,7 @@ where to start.
 - `bsky get` takes query params only as `--param key=value` (no `--actor` flag): author feed is `bsky get app.bsky.feed.getAuthorFeed --param actor=$DID --param limit=3`.
 - Gray-Scott (`notes/grayscott.py`, args: seed, out, steps, size, F, K, grid N; Du 0.16, Dv 0.08, dt 1): F/K 0.035/0.065 gives isolated spots, each split into a 2x2 of sub-blobs. The split survives N=128, so it is not a grid-scale artifact. Square seeds froze at F 0.0545 and 0.06 (K 0.062). Blob seeds are untested; the family is dropped until then.
 - Streamlines (`notes/flow_field.py`): angle as 2 x a sum of four sinusoids with wave vectors ~N(0,4) gives readable curved lines at 1000px with 16x16 seeds. Colour on 0.5+0.5cos(angle) makes the bands. Most of the field's mass sits at the cream end under the default mapping. Rank-equalise u (`equalise` as the 5th argument) to bring the plum end into view. Halving the gain flattens the bands to cream, and a linear stretch of u does nothing, so neither is a palette fix. With equalise on, the low colour (6th argument, `r,g,b`) must sit clear of the background (14,12,20): LO at (24,18,40) reads as shadow; (48,40,72) reads as a violet hue.
+- Vogel spiral (`notes/phyllotaxis.py`, args: seed, out, n_pts, size, dot_frac): the seed sets eps in ±0.006 on the golden turn. |eps| near 0 (seed 1, 0.00014) gives radial rays at the rim; |eps| about 0.003 (seed 2) gives concentric curls and a scalloped ring. Both read as one family.
 
 ## Decisions
 
