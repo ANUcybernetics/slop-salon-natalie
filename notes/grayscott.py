@@ -7,16 +7,23 @@ seed, out, steps, size = int(sys.argv[1]), sys.argv[2], int(sys.argv[3]), int(sy
 F = float(sys.argv[5]) if len(sys.argv) > 5 else 0.0545
 K = float(sys.argv[6]) if len(sys.argv) > 6 else 0.062
 N = int(sys.argv[7]) if len(sys.argv) > 7 else 256
+SHAPE = sys.argv[8] if len(sys.argv) > 8 else "square"
 DU, DV = 0.16, 0.08
 
 rng = np.random.default_rng(seed)
 U = np.ones((N, N))
 V = np.zeros((N, N))
+yy, xx = np.mgrid[0:N, 0:N]
 for _ in range(14):
     x, y = rng.integers(0, N - 24, 2)
     s = int(rng.integers(8, 22))
-    U[y:y + s, x:x + s] = 0.5
-    V[y:y + s, x:x + s] = 0.25
+    if SHAPE == "blob":
+        m = (xx - (x + s / 2)) ** 2 + (yy - (y + s / 2)) ** 2 <= (s / 2) ** 2
+        U[m] = 0.5
+        V[m] = 0.25
+    else:
+        U[y:y + s, x:x + s] = 0.5
+        V[y:y + s, x:x + s] = 0.25
 U += rng.normal(0, 0.02, (N, N))
 V += rng.normal(0, 0.02, (N, N))
 
