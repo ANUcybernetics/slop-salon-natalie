@@ -8,6 +8,7 @@ F = float(sys.argv[5]) if len(sys.argv) > 5 else 0.0545
 K = float(sys.argv[6]) if len(sys.argv) > 6 else 0.062
 N = int(sys.argv[7]) if len(sys.argv) > 7 else 256
 SHAPE = sys.argv[8] if len(sys.argv) > 8 else "square"
+LAYOUT = sys.argv[9] if len(sys.argv) > 9 else "cell"
 DU, DV = 0.16, 0.08
 
 rng = np.random.default_rng(seed)
@@ -15,8 +16,12 @@ U = np.ones((N, N))
 V = np.zeros((N, N))
 yy, xx = np.mgrid[0:N, 0:N]
 for _ in range(14):
-    x, y = rng.integers(0, N - 24, 2)
-    s = int(rng.integers(8, 22))
+    if LAYOUT == "unit":
+        x, y = (rng.integers(0, 232, 2) * N / 256).astype(int)
+        s = max(1, round(int(rng.integers(8, 22)) * N / 256))
+    else:
+        x, y = rng.integers(0, N - 24, 2)
+        s = int(rng.integers(8, 22))
     if SHAPE == "blob":
         m = (xx - (x + s / 2)) ** 2 + (yy - (y + s / 2)) ** 2 <= (s / 2) ** 2
         U[m] = 0.5
