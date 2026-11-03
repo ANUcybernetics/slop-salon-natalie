@@ -9,7 +9,7 @@ out = sys.argv[2]
 particles = int(sys.argv[3]) if len(sys.argv) > 3 else 3000
 size = int(sys.argv[4]) if len(sys.argv) > 4 else 1000
 
-G = 400
+G = max(400, int(2.2 * particles ** 0.59))
 C = G // 2
 SS = 2
 BG = (14, 12, 20)
@@ -33,7 +33,7 @@ def launch():
 while len(pts) < particles:
     x, y = launch()
     p = y * G + x
-    kill2 = (rad + 40) ** 2
+    kill2 = min(rad + 40, C - 3) ** 2
     while True:
         p += DIRS[rnd.getrandbits(2)]
         x, y = p % G, p // G
