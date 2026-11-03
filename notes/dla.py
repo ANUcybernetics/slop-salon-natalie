@@ -8,6 +8,7 @@ seed = int(sys.argv[1])
 out = sys.argv[2]
 particles = int(sys.argv[3]) if len(sys.argv) > 3 else 3000
 size = int(sys.argv[4]) if len(sys.argv) > 4 else 1000
+stick = float(sys.argv[5]) if len(sys.argv) > 5 else 1.0
 
 G = max(400, int(2.2 * particles ** 0.59))
 C = G // 2
@@ -41,10 +42,11 @@ while len(pts) < particles:
         if dx * dx + dy * dy > kill2:
             break
         if occ[p + 1] or occ[p - 1] or occ[p + G] or occ[p - G]:
-            occ[p] = 1
-            pts.append((x, y))
-            rad = max(rad, math.hypot(dx, dy))
-            break
+            if stick >= 1.0 or rnd.random() < stick:
+                occ[p] = 1
+                pts.append((x, y))
+                rad = max(rad, math.hypot(dx, dy))
+                break
 
 S = size * SS
 k = S / G
